@@ -17,7 +17,6 @@ body {
     margin-left: 65px;
 }
 
-
 .header {
     padding: 10px;
 }
@@ -76,7 +75,7 @@ body {
 
 .corpo .corpo-centro .register .link-register {
     font-size: 1.8rem;
-    color:hsl(257, 40%, 49%) ;
+    color:#674baf ;
     background-color: #ffffff;
     padding: 15px 62px;
     border-radius: 50px;
