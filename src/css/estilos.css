@@ -1,0 +1,130 @@
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('../images/bg-desktop.svg');
+    background-size: cover;
+}
+
+.header .logo {
+    margin: 35px 50px 60px ;
+    max-width: 350px;
+    margin-left: 65px;
+}
+
+
+.header {
+    padding: 10px;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+}
+
+.corpo .ilustracao {
+    max-width: 100%;
+    padding: 9px;
+    margin: 0 44px 0 50px;
+}
+
+.corpo .corpo-centro .titulo-build {
+    font-size: 4rem;
+    color: #ffffff;
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+.corpo .corpo-centro .titulo-fans {
+    font-size: 4rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.corpo .corpo-centro .texto-corpo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    color: #ffffff;
+    max-width: 500px;
+    line-height: 2.8rem;
+    margin-top: 20px;
+    font-weight: 300;
+    
+}
+
+.corpo .corpo-centro .register {
+    margin-top: 35px;
+    
+}
+
+.corpo .corpo-centro .register a {
+    transition: 0.3s;
+    font-weight: 300;
+}
+
+
+
+.corpo .corpo-centro .register:hover a {
+   background-color:  hsl(300, 69%, 71%) ;
+   color: #ffffff;
+}
+
+
+
+.corpo .corpo-centro .register .link-register {
+    font-size: 1.8rem;
+    color:hsl(257, 40%, 49%) ;
+    background-color: #ffffff;
+    padding: 15px 62px;
+    border-radius: 50px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: end;
+    padding: 10px 0;
+    margin-right: 65px;
+}
+
+.footer  .fab.fa-facebook-f {
+    font-size: 1.8rem;
+    font-weight: 200;
+    padding: 11px 15px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.footer  .fab.fa-twitter {
+    font-size: 2rem;
+    font-weight: 200;
+    padding: 10px 11px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.footer  .fab.fa-instagram {
+    font-size: 2.5rem;
+    font-weight: 200;
+    padding: 8px 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.footer a .fab{
+    transition: 0.3s;
+}
+
+.footer a:hover .fab {
+    color:  #8b1f5a ;
+    border: 1px solid #8b1f5a;
+}
+

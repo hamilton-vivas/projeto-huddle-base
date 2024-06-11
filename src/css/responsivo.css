@@ -1,0 +1,56 @@
+@media (max-width:1024px) {
+    
+    body {
+        background-image: url('../images/bg-mobile.svg');
+        background-size: contain;
+        padding: 20px;
+    }
+    
+     .header .logo {
+        margin-left: 0;
+        max-width: 180px;
+    }
+
+    .corpo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .corpo .corpo-centro .register {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .corpo .corpo-centro .register .link-register {
+        padding: 12px 78px;
+    }
+
+    .footer {
+        justify-content: center;
+        margin-right: 8px;
+    }
+
+    .corpo .corpo-centro .titulo-fans, .corpo .corpo-centro .titulo-build , .corpo .corpo-centro .texto-corpo {
+        text-align: center;
+    }
+
+    .corpo .corpo-centro .titulo-build, .corpo .corpo-centro .titulo-fans {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:1280px) {
+    body {
+        padding: 40px;
+    }
+
+    .corpo .corpo-centro .titulo-build, .corpo .corpo-centro .titulo-fans {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:375px) {
+    .corpo .corpo-centro .titulo-build, .corpo .corpo-centro .titulo-fans {
+        font-size: 2.6rem;
+    }
+}
