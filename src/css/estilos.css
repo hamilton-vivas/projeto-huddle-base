@@ -4,9 +4,11 @@ html {
 }
 
 body {
-    background-color: hsl(257, 40%, 49%);
+    background-color: #674baf;
     background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1440px;
 }
 
 .header .logo {
@@ -61,18 +63,16 @@ body {
 }
 
 .corpo .corpo-centro .register a {
-    transition: 0.3s;
+    transition: 0.4s ease-in-out all;
     font-weight: 300;
 }
 
 
 
 .corpo .corpo-centro .register:hover a {
-   background-color:  hsl(300, 69%, 71%) ;
+   background-color:  #e882e8 ;
    color: #ffffff;
 }
-
-
 
 .corpo .corpo-centro .register .link-register {
     font-size: 1.8rem;
@@ -120,11 +120,11 @@ body {
 }
 
 .footer a .fab{
-    transition: 0.3s;
+    transition: 0.3s ease-in-out all;
 }
 
 .footer a:hover .fab {
-    color:  #8b1f5a ;
-    border: 1px solid #8b1f5a;
+    color:  #e882e8 ;
+    border: 1px solid #e882e8;
 }
 

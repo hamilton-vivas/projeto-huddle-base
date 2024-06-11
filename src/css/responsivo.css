@@ -3,6 +3,7 @@
     body {
         background-image: url('../images/bg-mobile.svg');
         background-size: contain;
+        background-repeat: no-repeat;
         padding: 20px;
     }
     
@@ -36,6 +37,13 @@
 
     .corpo .corpo-centro .titulo-build, .corpo .corpo-centro .titulo-fans {
         font-size: 3rem;
+    }
+}
+
+@media (max-width:2560px) {
+   body {
+    max-width:max-content;
+    margin: 0 auto;
     }
 }
 
