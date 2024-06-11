@@ -53,7 +53,6 @@ body {
     line-height: 2.8rem;
     margin-top: 20px;
     font-weight: 300;
-    
 }
 
 .corpo .corpo-centro .register {
@@ -65,8 +64,6 @@ body {
     transition: 0.4s ease-in-out all;
     font-weight: 300;
 }
-
-
 
 .corpo .corpo-centro .register:hover a {
    background-color:  #e882e8 ;
