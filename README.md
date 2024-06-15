@@ -1,6 +1,6 @@
 # Projeto Huddle Base do Frontend Mentor
 
-[<img src="./src/hubble.gif" alt="gif do projeto game stuka ace">](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
+[<img src="./src/hubble.gif" alt="Gif do projeto Huddle-base">](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
 
 ## Tecnologias utilizadas
 
